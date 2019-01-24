@@ -1,0 +1,7128 @@
+Preparing file where tuning results will be written ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.6
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.989s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.472s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.095s
+
+computing ratings ...
+elapsed time: 1.914s
+
+computing similarity ...
+elapsed: 0.407s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.117s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.142s
+
+computing similarity between users ...
+elapsed time: 4.220s
+
+computing similarity knn...
+elapsed: 3.197s
+
+computing ratings ...
+elapsed time: 5.254s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.930s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.461s
+
+Computing Slim ratings...
+elapsed: 5.176s
+
+computing similarity ...
+elapsed: 0.393s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.126s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.105s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.152s
+
+predicting ...
+elapsed: 3.095s
+
+evaluating model ...
+MAP@10: 0.08743
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.6
+Got MAP@10: 0.08743
+
+elapsed: 443.830s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.1
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.284s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.496s
+
+Computing Slim ratings...
+elapsed: 5.173s
+
+computing similarity between users ...
+elapsed time: 4.230s
+
+computing similarity knn...
+elapsed: 3.108s
+
+computing ratings ...
+elapsed time: 1.918s
+
+computing similarity ...
+elapsed: 0.419s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.180s
+
+computing similarity between users ...
+elapsed time: 4.229s
+
+computing similarity knn...
+elapsed: 3.228s
+
+computing ratings ...
+elapsed time: 5.274s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.022s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.505s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+predicting ...
+elapsed: 3.137s
+
+evaluating model ...
+MAP@10: 0.08721
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.1
+Got MAP@10: 0.08721
+
+elapsed: 442.445s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.5
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.529s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.462s
+
+Computing Slim ratings...
+elapsed: 5.197s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.097s
+
+computing ratings ...
+elapsed time: 1.923s
+
+computing similarity ...
+elapsed: 0.412s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.134s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.153s
+
+computing similarity between users ...
+elapsed time: 4.232s
+
+computing similarity knn...
+elapsed: 3.212s
+
+computing ratings ...
+elapsed time: 5.314s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.441s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.474s
+
+Computing Slim ratings...
+elapsed: 5.198s
+
+computing similarity ...
+elapsed: 0.412s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.148s
+
+predicting ...
+elapsed: 3.121s
+
+evaluating model ...
+MAP@10: 0.08735
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.5
+Got MAP@10: 0.08735
+
+elapsed: 443.037s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.1
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.856s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.471s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.106s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.393s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.105s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.150s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.220s
+
+computing ratings ...
+elapsed time: 5.297s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.760s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.502s
+
+Computing Slim ratings...
+elapsed: 5.176s
+
+computing similarity ...
+elapsed: 0.406s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.121s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+predicting ...
+elapsed: 3.135s
+
+evaluating model ...
+MAP@10: 0.08759
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.1
+Got MAP@10: 0.08759
+
+elapsed: 442.648s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.6
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.640s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.478s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity between users ...
+elapsed time: 4.260s
+
+computing similarity knn...
+elapsed: 3.099s
+
+computing ratings ...
+elapsed time: 1.924s
+
+computing similarity ...
+elapsed: 0.393s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.107s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.151s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.210s
+
+computing ratings ...
+elapsed time: 5.265s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.830s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.457s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.149s
+
+predicting ...
+elapsed: 3.098s
+
+evaluating model ...
+MAP@10: 0.08696
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.6
+Got MAP@10: 0.08696
+
+elapsed: 442.517s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.8
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.498s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.463s
+
+Computing Slim ratings...
+elapsed: 5.182s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.103s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.143s
+
+computing similarity between users ...
+elapsed time: 4.231s
+
+computing similarity knn...
+elapsed: 3.219s
+
+computing ratings ...
+elapsed time: 5.285s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.672s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.482s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.142s
+
+predicting ...
+elapsed: 3.127s
+
+evaluating model ...
+MAP@10: 0.08730
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.8
+Got MAP@10: 0.08730
+
+elapsed: 444.205s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.1
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.033s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.479s
+
+Computing Slim ratings...
+elapsed: 5.185s
+
+computing similarity between users ...
+elapsed time: 4.234s
+
+computing similarity knn...
+elapsed: 3.097s
+
+computing ratings ...
+elapsed time: 1.920s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+computing similarity between users ...
+elapsed time: 4.229s
+
+computing similarity knn...
+elapsed: 3.211s
+
+computing ratings ...
+elapsed time: 5.285s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.756s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.463s
+
+Computing Slim ratings...
+elapsed: 5.182s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.140s
+
+predicting ...
+elapsed: 3.142s
+
+evaluating model ...
+MAP@10: 0.08712
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.1
+Got MAP@10: 0.08712
+
+elapsed: 443.846s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.3
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.248s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.500s
+
+Computing Slim ratings...
+elapsed: 5.251s
+
+computing similarity between users ...
+elapsed time: 4.227s
+
+computing similarity knn...
+elapsed: 3.100s
+
+computing ratings ...
+elapsed time: 1.920s
+
+computing similarity ...
+elapsed: 0.422s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.129s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.225s
+
+computing ratings ...
+elapsed time: 5.278s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.872s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.508s
+
+Computing Slim ratings...
+elapsed: 5.247s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+predicting ...
+elapsed: 3.132s
+
+evaluating model ...
+MAP@10: 0.08715
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.3
+Got MAP@10: 0.08715
+
+elapsed: 442.341s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.2
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.503s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.553s
+
+Computing Slim ratings...
+elapsed: 5.257s
+
+computing similarity between users ...
+elapsed time: 4.254s
+
+computing similarity knn...
+elapsed: 3.255s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.182s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.213s
+
+computing ratings ...
+elapsed time: 5.275s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 182.327s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.515s
+
+Computing Slim ratings...
+elapsed: 5.265s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.140s
+
+predicting ...
+elapsed: 3.136s
+
+evaluating model ...
+MAP@10: 0.08741
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.2
+Got MAP@10: 0.08741
+
+elapsed: 444.488s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.7
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 182.409s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.588s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity between users ...
+elapsed time: 4.274s
+
+computing similarity knn...
+elapsed: 3.200s
+
+computing ratings ...
+elapsed time: 1.918s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+computing similarity between users ...
+elapsed time: 4.257s
+
+computing similarity knn...
+elapsed: 3.316s
+
+computing ratings ...
+elapsed time: 5.276s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 186.990s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.530s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.143s
+
+predicting ...
+elapsed: 3.125s
+
+evaluating model ...
+MAP@10: 0.08720
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.7
+Got MAP@10: 0.08720
+
+elapsed: 450.872s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.8
+w2-planck: 0.5
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 186.080s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.479s
+
+Computing Slim ratings...
+elapsed: 5.184s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.098s
+
+computing ratings ...
+elapsed time: 1.918s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.217s
+
+computing ratings ...
+elapsed time: 5.282s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 184.773s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.460s
+
+Computing Slim ratings...
+elapsed: 5.171s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+predicting ...
+elapsed: 3.125s
+
+evaluating model ...
+MAP@10: 0.08720
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.8
+w2-planck: 0.5
+Got MAP@10: 0.08720
+
+elapsed: 451.849s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.3
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.847s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.467s
+
+Computing Slim ratings...
+elapsed: 5.177s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.106s
+
+computing ratings ...
+elapsed time: 1.918s
+
+computing similarity ...
+elapsed: 0.394s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.150s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.232s
+
+computing ratings ...
+elapsed time: 5.277s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.383s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.463s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity ...
+elapsed: 0.406s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.367s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.197s
+
+evaluating model ...
+MAP@10: 0.08714
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.3
+Got MAP@10: 0.08714
+
+elapsed: 441.268s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.4
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.001s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.484s
+
+Computing Slim ratings...
+elapsed: 5.205s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.099s
+
+computing ratings ...
+elapsed time: 1.920s
+
+computing similarity ...
+elapsed: 0.394s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.148s
+
+computing similarity between users ...
+elapsed time: 4.220s
+
+computing similarity knn...
+elapsed: 3.215s
+
+computing ratings ...
+elapsed time: 5.270s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.906s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.465s
+
+Computing Slim ratings...
+elapsed: 5.181s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.148s
+
+predicting ...
+elapsed: 3.130s
+
+evaluating model ...
+MAP@10: 0.08704
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.4
+Got MAP@10: 0.08704
+
+elapsed: 440.873s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.4
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.840s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.479s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.106s
+
+computing ratings ...
+elapsed time: 1.917s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+computing similarity between users ...
+elapsed time: 4.221s
+
+computing similarity knn...
+elapsed: 3.224s
+
+computing ratings ...
+elapsed time: 5.278s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.562s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.470s
+
+Computing Slim ratings...
+elapsed: 5.177s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+predicting ...
+elapsed: 3.115s
+
+evaluating model ...
+MAP@10: 0.08677
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.4
+Got MAP@10: 0.08677
+
+elapsed: 442.422s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.8
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.523s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.467s
+
+Computing Slim ratings...
+elapsed: 5.185s
+
+computing similarity between users ...
+elapsed time: 4.232s
+
+computing similarity knn...
+elapsed: 3.096s
+
+computing ratings ...
+elapsed time: 1.924s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.148s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.212s
+
+computing ratings ...
+elapsed time: 5.288s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.676s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.464s
+
+Computing Slim ratings...
+elapsed: 5.180s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.148s
+
+predicting ...
+elapsed: 3.099s
+
+evaluating model ...
+MAP@10: 0.08671
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.8
+Got MAP@10: 0.08671
+
+elapsed: 442.155s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.5
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.725s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.490s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.108s
+
+computing ratings ...
+elapsed time: 1.920s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.141s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.224s
+
+computing ratings ...
+elapsed time: 5.284s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.882s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.454s
+
+Computing Slim ratings...
+elapsed: 5.184s
+
+computing similarity ...
+elapsed: 0.407s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.141s
+
+predicting ...
+elapsed: 3.203s
+
+evaluating model ...
+MAP@10: 0.08729
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.5
+Got MAP@10: 0.08729
+
+elapsed: 443.699s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.2
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.541s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.482s
+
+Computing Slim ratings...
+elapsed: 5.209s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.093s
+
+computing ratings ...
+elapsed time: 1.925s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.148s
+
+computing similarity between users ...
+elapsed time: 4.239s
+
+computing similarity knn...
+elapsed: 3.218s
+
+computing ratings ...
+elapsed time: 5.294s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.447s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.474s
+
+Computing Slim ratings...
+elapsed: 5.180s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.138s
+
+predicting ...
+elapsed: 3.131s
+
+evaluating model ...
+MAP@10: 0.08725
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.2
+Got MAP@10: 0.08725
+
+elapsed: 442.111s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.4
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.670s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.510s
+
+Computing Slim ratings...
+elapsed: 5.189s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.108s
+
+computing ratings ...
+elapsed time: 1.925s
+
+computing similarity ...
+elapsed: 0.391s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.107s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+computing similarity between users ...
+elapsed time: 4.240s
+
+computing similarity knn...
+elapsed: 3.221s
+
+computing ratings ...
+elapsed time: 5.267s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.842s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.483s
+
+Computing Slim ratings...
+elapsed: 5.174s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.139s
+
+predicting ...
+elapsed: 3.146s
+
+evaluating model ...
+MAP@10: 0.08769
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.4
+Got MAP@10: 0.08769
+
+elapsed: 441.580s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.9
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.236s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.477s
+
+Computing Slim ratings...
+elapsed: 5.184s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.099s
+
+computing ratings ...
+elapsed time: 1.920s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.132s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.372s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.214s
+
+computing ratings ...
+elapsed time: 5.278s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.504s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.473s
+
+Computing Slim ratings...
+elapsed: 5.177s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+predicting ...
+elapsed: 3.125s
+
+evaluating model ...
+MAP@10: 0.08739
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.9
+Got MAP@10: 0.08739
+
+elapsed: 442.748s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.1
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.170s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.490s
+
+Computing Slim ratings...
+elapsed: 5.190s
+
+computing similarity between users ...
+elapsed time: 4.237s
+
+computing similarity knn...
+elapsed: 3.107s
+
+computing ratings ...
+elapsed time: 1.926s
+
+computing similarity ...
+elapsed: 0.394s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.218s
+
+computing ratings ...
+elapsed time: 5.286s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.268s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.451s
+
+Computing Slim ratings...
+elapsed: 5.173s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.143s
+
+predicting ...
+elapsed: 3.133s
+
+evaluating model ...
+MAP@10: 0.08752
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.1
+Got MAP@10: 0.08752
+
+elapsed: 442.504s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.7
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.197s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.508s
+
+Computing Slim ratings...
+elapsed: 5.185s
+
+computing similarity between users ...
+elapsed time: 4.231s
+
+computing similarity knn...
+elapsed: 3.094s
+
+computing ratings ...
+elapsed time: 1.921s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.117s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.143s
+
+computing similarity between users ...
+elapsed time: 4.227s
+
+computing similarity knn...
+elapsed: 3.214s
+
+computing ratings ...
+elapsed time: 5.317s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.386s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.459s
+
+Computing Slim ratings...
+elapsed: 5.173s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.372s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+predicting ...
+elapsed: 3.167s
+
+evaluating model ...
+MAP@10: 0.08672
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.7
+Got MAP@10: 0.08672
+
+elapsed: 442.795s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.4
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.150s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.617s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity between users ...
+elapsed time: 4.263s
+
+computing similarity knn...
+elapsed: 3.106s
+
+computing ratings ...
+elapsed time: 1.926s
+
+computing similarity ...
+elapsed: 0.431s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.137s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.122s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.222s
+
+computing similarity between users ...
+elapsed time: 4.227s
+
+computing similarity knn...
+elapsed: 3.223s
+
+computing ratings ...
+elapsed time: 5.323s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.433s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.577s
+
+Computing Slim ratings...
+elapsed: 5.254s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+predicting ...
+elapsed: 3.189s
+
+evaluating model ...
+MAP@10: 0.08742
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.4
+Got MAP@10: 0.08742
+
+elapsed: 443.491s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.8
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.156s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.602s
+
+Computing Slim ratings...
+elapsed: 5.267s
+
+computing similarity between users ...
+elapsed time: 4.262s
+
+computing similarity knn...
+elapsed: 3.094s
+
+computing ratings ...
+elapsed time: 1.919s
+
+computing similarity ...
+elapsed: 0.414s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.117s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.142s
+
+computing similarity between users ...
+elapsed time: 4.221s
+
+computing similarity knn...
+elapsed: 3.384s
+
+computing ratings ...
+elapsed time: 5.273s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 184.640s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.468s
+
+Computing Slim ratings...
+elapsed: 5.177s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.117s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.236s
+
+predicting ...
+elapsed: 3.131s
+
+evaluating model ...
+MAP@10: 0.08725
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.8
+Got MAP@10: 0.08725
+
+elapsed: 447.373s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.5
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 185.695s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.621s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity between users ...
+elapsed time: 4.227s
+
+computing similarity knn...
+elapsed: 3.200s
+
+computing ratings ...
+elapsed time: 1.917s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.156s
+
+computing similarity between users ...
+elapsed time: 4.258s
+
+computing similarity knn...
+elapsed: 3.392s
+
+computing ratings ...
+elapsed time: 5.272s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 187.448s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.534s
+
+Computing Slim ratings...
+elapsed: 5.176s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.142s
+
+predicting ...
+elapsed: 3.107s
+
+evaluating model ...
+MAP@10: 0.08699
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.5
+Got MAP@10: 0.08699
+
+elapsed: 454.828s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.6
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 182.025s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.492s
+
+Computing Slim ratings...
+elapsed: 5.185s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.098s
+
+computing ratings ...
+elapsed time: 1.923s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+computing similarity between users ...
+elapsed time: 4.221s
+
+computing similarity knn...
+elapsed: 3.216s
+
+computing ratings ...
+elapsed time: 5.295s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.422s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.455s
+
+Computing Slim ratings...
+elapsed: 5.181s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+predicting ...
+elapsed: 3.120s
+
+evaluating model ...
+MAP@10: 0.08741
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.6
+Got MAP@10: 0.08741
+
+elapsed: 443.500s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.9
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.000s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.489s
+
+Computing Slim ratings...
+elapsed: 5.190s
+
+computing similarity between users ...
+elapsed time: 4.231s
+
+computing similarity knn...
+elapsed: 3.103s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.392s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.143s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.222s
+
+computing ratings ...
+elapsed time: 5.291s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.983s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.465s
+
+Computing Slim ratings...
+elapsed: 5.182s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.373s
+
+computing ratings ...
+10000
+elapsed: 2.142s
+
+predicting ...
+elapsed: 3.119s
+
+evaluating model ...
+MAP@10: 0.08746
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.9
+Got MAP@10: 0.08746
+
+elapsed: 442.056s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.5
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.393s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.508s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity between users ...
+elapsed time: 4.229s
+
+computing similarity knn...
+elapsed: 3.099s
+
+computing ratings ...
+elapsed time: 1.924s
+
+computing similarity ...
+elapsed: 0.424s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.129s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.151s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.284s
+
+computing ratings ...
+elapsed time: 5.278s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.194s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.472s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.160s
+
+predicting ...
+elapsed: 3.104s
+
+evaluating model ...
+MAP@10: 0.08719
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.5
+Got MAP@10: 0.08719
+
+elapsed: 440.741s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.8
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.281s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.488s
+
+Computing Slim ratings...
+elapsed: 5.185s
+
+computing similarity between users ...
+elapsed time: 4.232s
+
+computing similarity knn...
+elapsed: 3.102s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.148s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.224s
+
+computing ratings ...
+elapsed time: 5.278s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.036s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.460s
+
+Computing Slim ratings...
+elapsed: 5.175s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.179s
+
+predicting ...
+elapsed: 3.101s
+
+evaluating model ...
+MAP@10: 0.08676
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.8
+Got MAP@10: 0.08676
+
+elapsed: 441.447s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.4
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.176s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.519s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity between users ...
+elapsed time: 4.230s
+
+computing similarity knn...
+elapsed: 3.094s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.421s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.129s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.152s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.210s
+
+computing ratings ...
+elapsed time: 5.280s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.562s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.470s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.141s
+
+predicting ...
+elapsed: 3.126s
+
+evaluating model ...
+MAP@10: 0.08730
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.4
+Got MAP@10: 0.08730
+
+elapsed: 442.820s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.6
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.855s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.479s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.105s
+
+computing ratings ...
+elapsed time: 1.919s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.151s
+
+computing similarity between users ...
+elapsed time: 4.221s
+
+computing similarity knn...
+elapsed: 3.223s
+
+computing ratings ...
+elapsed time: 5.281s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.229s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.473s
+
+Computing Slim ratings...
+elapsed: 5.182s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.367s
+
+computing ratings ...
+10000
+elapsed: 2.138s
+
+predicting ...
+elapsed: 3.089s
+
+evaluating model ...
+MAP@10: 0.08687
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.6
+Got MAP@10: 0.08687
+
+elapsed: 442.094s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.4
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.708s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.471s
+
+Computing Slim ratings...
+elapsed: 5.182s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.094s
+
+computing ratings ...
+elapsed time: 1.919s
+
+computing similarity ...
+elapsed: 0.422s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.131s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.152s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.215s
+
+computing ratings ...
+elapsed time: 5.289s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.059s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.481s
+
+Computing Slim ratings...
+elapsed: 5.176s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.183s
+
+evaluating model ...
+MAP@10: 0.08746
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.4
+Got MAP@10: 0.08746
+
+elapsed: 441.874s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.1
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.161s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.481s
+
+Computing Slim ratings...
+elapsed: 5.213s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.104s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.153s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.222s
+
+computing ratings ...
+elapsed time: 5.303s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.728s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.475s
+
+Computing Slim ratings...
+elapsed: 5.182s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.150s
+
+predicting ...
+elapsed: 3.116s
+
+evaluating model ...
+MAP@10: 0.08719
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.1
+Got MAP@10: 0.08719
+
+elapsed: 442.033s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.3
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.027s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.489s
+
+Computing Slim ratings...
+elapsed: 5.193s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.093s
+
+computing ratings ...
+elapsed time: 1.921s
+
+computing similarity ...
+elapsed: 0.422s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.131s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.151s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.212s
+
+computing ratings ...
+elapsed time: 5.275s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.962s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.486s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+predicting ...
+elapsed: 3.140s
+
+evaluating model ...
+MAP@10: 0.08758
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.3
+Got MAP@10: 0.08758
+
+elapsed: 442.090s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.8
+w2-planck: 0.2
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.036s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.488s
+
+Computing Slim ratings...
+elapsed: 5.191s
+
+computing similarity between users ...
+elapsed time: 4.229s
+
+computing similarity knn...
+elapsed: 3.106s
+
+computing ratings ...
+elapsed time: 1.921s
+
+computing similarity ...
+elapsed: 0.421s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.154s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.220s
+
+computing ratings ...
+elapsed time: 5.269s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.292s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.470s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity ...
+elapsed: 0.413s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.143s
+
+predicting ...
+elapsed: 3.138s
+
+evaluating model ...
+MAP@10: 0.08755
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.8
+w2-planck: 0.2
+Got MAP@10: 0.08755
+
+elapsed: 441.470s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.2
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.920s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.472s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity between users ...
+elapsed time: 4.229s
+
+computing similarity knn...
+elapsed: 3.098s
+
+computing ratings ...
+elapsed time: 1.924s
+
+computing similarity ...
+elapsed: 0.420s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.152s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.216s
+
+computing ratings ...
+elapsed time: 5.281s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.636s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.517s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity ...
+elapsed: 0.412s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+predicting ...
+elapsed: 3.125s
+
+evaluating model ...
+MAP@10: 0.08739
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.2
+Got MAP@10: 0.08739
+
+elapsed: 441.671s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.9
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.866s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.491s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity between users ...
+elapsed time: 4.231s
+
+computing similarity knn...
+elapsed: 3.106s
+
+computing ratings ...
+elapsed time: 1.924s
+
+computing similarity ...
+elapsed: 0.407s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.226s
+
+computing ratings ...
+elapsed time: 5.279s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.570s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.474s
+
+Computing Slim ratings...
+elapsed: 5.182s
+
+computing similarity ...
+elapsed: 0.413s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.119s
+
+evaluating model ...
+MAP@10: 0.08727
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.9
+Got MAP@10: 0.08727
+
+elapsed: 442.522s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.8
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.709s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.486s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.099s
+
+computing ratings ...
+elapsed time: 1.923s
+
+computing similarity ...
+elapsed: 0.421s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.143s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.216s
+
+computing ratings ...
+elapsed time: 5.282s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 182.016s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.493s
+
+Computing Slim ratings...
+elapsed: 5.177s
+
+computing similarity ...
+elapsed: 0.413s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+predicting ...
+elapsed: 3.111s
+
+evaluating model ...
+MAP@10: 0.08741
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.8
+Got MAP@10: 0.08741
+
+elapsed: 442.823s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.1
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.417s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.517s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity between users ...
+elapsed time: 4.231s
+
+computing similarity knn...
+elapsed: 3.108s
+
+computing ratings ...
+elapsed time: 1.925s
+
+computing similarity ...
+elapsed: 0.407s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.223s
+
+computing ratings ...
+elapsed time: 5.281s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.025s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.462s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity ...
+elapsed: 0.412s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.127s
+
+evaluating model ...
+MAP@10: 0.08752
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.1
+Got MAP@10: 0.08752
+
+elapsed: 441.527s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.8
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.684s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.481s
+
+Computing Slim ratings...
+elapsed: 5.182s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.101s
+
+computing ratings ...
+elapsed time: 1.925s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.141s
+
+computing similarity between users ...
+elapsed time: 4.221s
+
+computing similarity knn...
+elapsed: 3.213s
+
+computing ratings ...
+elapsed time: 5.280s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.928s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.480s
+
+Computing Slim ratings...
+elapsed: 5.176s
+
+computing similarity ...
+elapsed: 0.413s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.109s
+
+evaluating model ...
+MAP@10: 0.08733
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.8
+Got MAP@10: 0.08733
+
+elapsed: 441.696s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.6
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.324s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.488s
+
+Computing Slim ratings...
+elapsed: 5.201s
+
+computing similarity between users ...
+elapsed time: 4.229s
+
+computing similarity knn...
+elapsed: 3.107s
+
+computing ratings ...
+elapsed time: 1.927s
+
+computing similarity ...
+elapsed: 0.407s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.152s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.224s
+
+computing ratings ...
+elapsed time: 5.278s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.839s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.465s
+
+Computing Slim ratings...
+elapsed: 5.185s
+
+computing similarity ...
+elapsed: 0.412s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.142s
+
+predicting ...
+elapsed: 3.106s
+
+evaluating model ...
+MAP@10: 0.08755
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.6
+Got MAP@10: 0.08755
+
+elapsed: 442.246s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.7
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.627s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.496s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity between users ...
+elapsed time: 4.230s
+
+computing similarity knn...
+elapsed: 3.096s
+
+computing ratings ...
+elapsed time: 1.924s
+
+computing similarity ...
+elapsed: 0.407s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.151s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.217s
+
+computing ratings ...
+elapsed time: 5.269s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.375s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.462s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity ...
+elapsed: 0.412s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.114s
+
+evaluating model ...
+MAP@10: 0.08735
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.7
+Got MAP@10: 0.08735
+
+elapsed: 442.044s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.4
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.440s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.474s
+
+Computing Slim ratings...
+elapsed: 5.190s
+
+computing similarity between users ...
+elapsed time: 4.229s
+
+computing similarity knn...
+elapsed: 3.108s
+
+computing ratings ...
+elapsed time: 1.925s
+
+computing similarity ...
+elapsed: 0.420s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.373s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.223s
+
+computing ratings ...
+elapsed time: 5.271s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.177s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.479s
+
+Computing Slim ratings...
+elapsed: 5.174s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+predicting ...
+elapsed: 3.109s
+
+evaluating model ...
+MAP@10: 0.08693
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.4
+Got MAP@10: 0.08693
+
+elapsed: 440.683s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.4
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.928s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.494s
+
+Computing Slim ratings...
+elapsed: 5.198s
+
+computing similarity between users ...
+elapsed time: 4.232s
+
+computing similarity knn...
+elapsed: 3.097s
+
+computing ratings ...
+elapsed time: 1.928s
+
+computing similarity ...
+elapsed: 0.407s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.213s
+
+computing ratings ...
+elapsed time: 5.302s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.211s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.464s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity ...
+elapsed: 0.412s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.122s
+
+evaluating model ...
+MAP@10: 0.08749
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.4
+Got MAP@10: 0.08749
+
+elapsed: 442.311s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.8
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.630s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.494s
+
+Computing Slim ratings...
+elapsed: 5.193s
+
+computing similarity between users ...
+elapsed time: 4.232s
+
+computing similarity knn...
+elapsed: 3.107s
+
+computing ratings ...
+elapsed time: 1.927s
+
+computing similarity ...
+elapsed: 0.407s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.223s
+
+computing ratings ...
+elapsed time: 5.301s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.229s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.464s
+
+Computing Slim ratings...
+elapsed: 5.184s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.154s
+
+predicting ...
+elapsed: 3.116s
+
+evaluating model ...
+MAP@10: 0.08711
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.8
+Got MAP@10: 0.08711
+
+elapsed: 442.018s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.5
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.689s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.539s
+
+Computing Slim ratings...
+elapsed: 5.203s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.100s
+
+computing ratings ...
+elapsed time: 1.920s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.164s
+
+computing similarity between users ...
+elapsed time: 4.239s
+
+computing similarity knn...
+elapsed: 3.215s
+
+computing ratings ...
+elapsed time: 5.288s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.159s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.463s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.372s
+
+computing ratings ...
+10000
+elapsed: 2.151s
+
+predicting ...
+elapsed: 3.121s
+
+evaluating model ...
+MAP@10: 0.08758
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.5
+Got MAP@10: 0.08758
+
+elapsed: 441.985s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.9
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.188s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.482s
+
+Computing Slim ratings...
+elapsed: 5.188s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.106s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.412s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.165s
+
+computing similarity between users ...
+elapsed time: 4.239s
+
+computing similarity knn...
+elapsed: 3.222s
+
+computing ratings ...
+elapsed time: 5.290s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.834s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.524s
+
+Computing Slim ratings...
+elapsed: 5.210s
+
+computing similarity ...
+elapsed: 0.393s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.367s
+
+computing ratings ...
+10000
+elapsed: 2.155s
+
+predicting ...
+elapsed: 3.157s
+
+evaluating model ...
+MAP@10: 0.08678
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.9
+Got MAP@10: 0.08678
+
+elapsed: 443.235s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.5
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.439s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.486s
+
+Computing Slim ratings...
+elapsed: 5.237s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.094s
+
+computing ratings ...
+elapsed time: 1.923s
+
+computing similarity ...
+elapsed: 0.421s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.131s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.151s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.213s
+
+computing ratings ...
+elapsed time: 5.281s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 182.153s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.508s
+
+Computing Slim ratings...
+elapsed: 5.200s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+predicting ...
+elapsed: 3.126s
+
+evaluating model ...
+MAP@10: 0.08747
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.5
+Got MAP@10: 0.08747
+
+elapsed: 443.795s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.8
+w2-planck: 0.3
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.980s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.474s
+
+Computing Slim ratings...
+elapsed: 5.189s
+
+computing similarity between users ...
+elapsed time: 4.230s
+
+computing similarity knn...
+elapsed: 3.103s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.132s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.152s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.222s
+
+computing ratings ...
+elapsed time: 5.297s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.545s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.457s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity ...
+elapsed: 0.392s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.367s
+
+computing ratings ...
+10000
+elapsed: 2.149s
+
+predicting ...
+elapsed: 3.127s
+
+evaluating model ...
+MAP@10: 0.08736
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.8
+w2-planck: 0.3
+Got MAP@10: 0.08736
+
+elapsed: 442.599s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.9
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.398s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.551s
+
+Computing Slim ratings...
+elapsed: 5.180s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.094s
+
+computing ratings ...
+elapsed time: 1.919s
+
+computing similarity ...
+elapsed: 0.421s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.129s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.153s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.209s
+
+computing ratings ...
+elapsed time: 5.270s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.539s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.462s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.131s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.141s
+
+predicting ...
+elapsed: 3.109s
+
+evaluating model ...
+MAP@10: 0.08712
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.9
+Got MAP@10: 0.08712
+
+elapsed: 441.015s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.2
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.960s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.519s
+
+Computing Slim ratings...
+elapsed: 5.185s
+
+computing similarity between users ...
+elapsed time: 4.227s
+
+computing similarity knn...
+elapsed: 3.106s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.151s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.221s
+
+computing ratings ...
+elapsed time: 5.291s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.730s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.464s
+
+Computing Slim ratings...
+elapsed: 5.193s
+
+computing similarity ...
+elapsed: 0.392s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.107s
+
+computing similarity knn...
+elapsed: 0.368s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+predicting ...
+elapsed: 3.197s
+
+evaluating model ...
+MAP@10: 0.08717
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.2
+Got MAP@10: 0.08717
+
+elapsed: 441.856s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.1
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 178.989s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.489s
+
+Computing Slim ratings...
+elapsed: 5.227s
+
+computing similarity between users ...
+elapsed time: 4.257s
+
+computing similarity knn...
+elapsed: 3.092s
+
+computing ratings ...
+elapsed time: 1.923s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.123s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.152s
+
+computing similarity between users ...
+elapsed time: 4.238s
+
+computing similarity knn...
+elapsed: 3.212s
+
+computing ratings ...
+elapsed time: 5.291s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.396s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.491s
+
+Computing Slim ratings...
+elapsed: 5.200s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.130s
+
+evaluating model ...
+MAP@10: 0.08686
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.1
+Got MAP@10: 0.08686
+
+elapsed: 441.603s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.7
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.336s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.503s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.105s
+
+computing ratings ...
+elapsed time: 1.924s
+
+computing similarity ...
+elapsed: 0.420s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.131s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.185s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.223s
+
+computing ratings ...
+elapsed time: 5.278s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.323s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.470s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity ...
+elapsed: 0.392s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.367s
+
+computing ratings ...
+10000
+elapsed: 2.142s
+
+predicting ...
+elapsed: 3.133s
+
+evaluating model ...
+MAP@10: 0.08743
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.7
+Got MAP@10: 0.08743
+
+elapsed: 440.798s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.3
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.676s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.501s
+
+Computing Slim ratings...
+elapsed: 5.186s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.092s
+
+computing ratings ...
+elapsed time: 1.921s
+
+computing similarity ...
+elapsed: 0.420s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.131s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.184s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.211s
+
+computing ratings ...
+elapsed time: 5.268s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.997s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.452s
+
+Computing Slim ratings...
+elapsed: 5.184s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+predicting ...
+elapsed: 3.138s
+
+evaluating model ...
+MAP@10: 0.08759
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.3
+Got MAP@10: 0.08759
+
+elapsed: 440.743s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.3
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.318s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.490s
+
+Computing Slim ratings...
+elapsed: 5.188s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.106s
+
+computing ratings ...
+elapsed time: 1.924s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.182s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.222s
+
+computing ratings ...
+elapsed time: 5.278s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.795s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.467s
+
+Computing Slim ratings...
+elapsed: 5.184s
+
+computing similarity ...
+elapsed: 0.392s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+predicting ...
+elapsed: 3.112s
+
+evaluating model ...
+MAP@10: 0.08707
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.1
+w2-planck: 0.3
+Got MAP@10: 0.08707
+
+elapsed: 441.380s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.9
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.513s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.507s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity between users ...
+elapsed time: 4.242s
+
+computing similarity knn...
+elapsed: 3.100s
+
+computing ratings ...
+elapsed time: 1.918s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.143s
+
+computing similarity between users ...
+elapsed time: 4.220s
+
+computing similarity knn...
+elapsed: 3.215s
+
+computing ratings ...
+elapsed time: 5.279s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.124s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.461s
+
+Computing Slim ratings...
+elapsed: 5.172s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.105s
+
+evaluating model ...
+MAP@10: 0.08679
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.9
+Got MAP@10: 0.08679
+
+elapsed: 441.671s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.5
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.603s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.491s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity between users ...
+elapsed time: 4.227s
+
+computing similarity knn...
+elapsed: 3.104s
+
+computing ratings ...
+elapsed time: 1.921s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.224s
+
+computing ratings ...
+elapsed time: 5.294s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.927s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.454s
+
+Computing Slim ratings...
+elapsed: 5.177s
+
+computing similarity ...
+elapsed: 0.412s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.119s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.358s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+predicting ...
+elapsed: 3.135s
+
+evaluating model ...
+MAP@10: 0.08730
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.4
+w2-planck: 0.5
+Got MAP@10: 0.08730
+
+elapsed: 442.592s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.9
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.252s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.486s
+
+Computing Slim ratings...
+elapsed: 5.188s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.103s
+
+computing ratings ...
+elapsed time: 1.928s
+
+computing similarity ...
+elapsed: 0.393s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.143s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.281s
+
+computing ratings ...
+elapsed time: 5.278s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.516s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.464s
+
+Computing Slim ratings...
+elapsed: 5.173s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.142s
+
+predicting ...
+elapsed: 3.113s
+
+evaluating model ...
+MAP@10: 0.08718
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.9
+Got MAP@10: 0.08718
+
+elapsed: 441.785s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.7
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.479s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.476s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity between users ...
+elapsed time: 4.245s
+
+computing similarity knn...
+elapsed: 3.105s
+
+computing ratings ...
+elapsed time: 1.924s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+computing similarity between users ...
+elapsed time: 4.227s
+
+computing similarity knn...
+elapsed: 3.223s
+
+computing ratings ...
+elapsed time: 5.284s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.572s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.473s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity ...
+elapsed: 0.419s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.131s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.139s
+
+predicting ...
+elapsed: 3.136s
+
+evaluating model ...
+MAP@10: 0.08759
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.6
+w2-planck: 0.7
+Got MAP@10: 0.08759
+
+elapsed: 442.248s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.7
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.131s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.468s
+
+Computing Slim ratings...
+elapsed: 5.180s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.097s
+
+computing ratings ...
+elapsed time: 1.923s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+computing similarity between users ...
+elapsed time: 4.224s
+
+computing similarity knn...
+elapsed: 3.217s
+
+computing ratings ...
+elapsed time: 5.285s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.834s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.466s
+
+Computing Slim ratings...
+elapsed: 5.178s
+
+computing similarity ...
+elapsed: 0.393s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.367s
+
+computing ratings ...
+10000
+elapsed: 2.140s
+
+predicting ...
+elapsed: 3.111s
+
+evaluating model ...
+MAP@10: 0.08735
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.7
+Got MAP@10: 0.08735
+
+elapsed: 442.989s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.2
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.816s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.494s
+
+Computing Slim ratings...
+elapsed: 5.201s
+
+computing similarity between users ...
+elapsed time: 4.230s
+
+computing similarity knn...
+elapsed: 3.105s
+
+computing ratings ...
+elapsed time: 1.921s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.152s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.224s
+
+computing ratings ...
+elapsed time: 5.279s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.871s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.513s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity ...
+elapsed: 0.413s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.180s
+
+predicting ...
+elapsed: 3.125s
+
+evaluating model ...
+MAP@10: 0.08746
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.2
+Got MAP@10: 0.08746
+
+elapsed: 442.945s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.7
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.233s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.492s
+
+Computing Slim ratings...
+elapsed: 5.189s
+
+computing similarity between users ...
+elapsed time: 4.230s
+
+computing similarity knn...
+elapsed: 3.100s
+
+computing ratings ...
+elapsed time: 1.925s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+computing similarity between users ...
+elapsed time: 4.226s
+
+computing similarity knn...
+elapsed: 3.219s
+
+computing ratings ...
+elapsed time: 5.292s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.872s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.460s
+
+Computing Slim ratings...
+elapsed: 5.179s
+
+computing similarity ...
+elapsed: 0.393s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.126s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.105s
+
+computing similarity knn...
+elapsed: 0.367s
+
+computing ratings ...
+10000
+elapsed: 2.185s
+
+predicting ...
+elapsed: 3.123s
+
+evaluating model ...
+MAP@10: 0.08725
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.7
+Got MAP@10: 0.08725
+
+elapsed: 442.232s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.1
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.021s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.478s
+
+Computing Slim ratings...
+elapsed: 5.184s
+
+computing similarity between users ...
+elapsed time: 4.238s
+
+computing similarity knn...
+elapsed: 3.108s
+
+computing ratings ...
+elapsed time: 1.919s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.371s
+
+computing ratings ...
+10000
+elapsed: 2.146s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.227s
+
+computing ratings ...
+elapsed time: 5.280s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.475s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.480s
+
+Computing Slim ratings...
+elapsed: 5.185s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.144s
+
+predicting ...
+elapsed: 3.133s
+
+evaluating model ...
+MAP@10: 0.08690
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.5
+w2-planck: 0.1
+Got MAP@10: 0.08690
+
+elapsed: 442.705s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.7
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.558s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.482s
+
+Computing Slim ratings...
+elapsed: 5.195s
+
+computing similarity between users ...
+elapsed time: 4.228s
+
+computing similarity knn...
+elapsed: 3.095s
+
+computing ratings ...
+elapsed time: 1.923s
+
+computing similarity ...
+elapsed: 0.410s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.120s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+computing similarity between users ...
+elapsed time: 4.258s
+
+computing similarity knn...
+elapsed: 3.216s
+
+computing ratings ...
+elapsed time: 5.293s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.060s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.450s
+
+Computing Slim ratings...
+elapsed: 5.187s
+
+computing similarity ...
+elapsed: 0.393s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.126s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.147s
+
+predicting ...
+elapsed: 3.106s
+
+evaluating model ...
+MAP@10: 0.08678
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.2
+w2-planck: 0.7
+Got MAP@10: 0.08678
+
+elapsed: 441.687s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.3
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.607s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.505s
+
+Computing Slim ratings...
+elapsed: 5.203s
+
+computing similarity between users ...
+elapsed time: 4.233s
+
+computing similarity knn...
+elapsed: 3.107s
+
+computing ratings ...
+elapsed time: 1.920s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.168s
+
+computing similarity between users ...
+elapsed time: 4.274s
+
+computing similarity knn...
+elapsed: 3.224s
+
+computing ratings ...
+elapsed time: 5.275s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.923s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.483s
+
+Computing Slim ratings...
+elapsed: 5.186s
+
+computing similarity ...
+elapsed: 0.411s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+predicting ...
+elapsed: 3.130s
+
+evaluating model ...
+MAP@10: 0.08728
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.3
+Got MAP@10: 0.08728
+
+elapsed: 440.762s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.2
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 179.678s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.503s
+
+Computing Slim ratings...
+elapsed: 5.201s
+
+computing similarity between users ...
+elapsed time: 4.232s
+
+computing similarity knn...
+elapsed: 3.100s
+
+computing ratings ...
+elapsed time: 1.921s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.119s
+
+computing similarity knn...
+elapsed: 0.370s
+
+computing ratings ...
+10000
+elapsed: 2.149s
+
+computing similarity between users ...
+elapsed time: 4.275s
+
+computing similarity knn...
+elapsed: 3.216s
+
+computing ratings ...
+elapsed time: 5.283s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.810s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.466s
+
+Computing Slim ratings...
+elapsed: 5.183s
+
+computing similarity ...
+elapsed: 0.392s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.367s
+
+computing ratings ...
+10000
+elapsed: 2.148s
+
+predicting ...
+elapsed: 3.190s
+
+evaluating model ...
+MAP@10: 0.08704
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.9
+w2-planck: 0.2
+Got MAP@10: 0.08704
+
+elapsed: 441.792s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.2
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.469s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.481s
+
+Computing Slim ratings...
+elapsed: 5.228s
+
+computing similarity between users ...
+elapsed time: 4.225s
+
+computing similarity knn...
+elapsed: 3.108s
+
+computing ratings ...
+elapsed time: 1.919s
+
+computing similarity ...
+elapsed: 0.392s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.367s
+
+computing ratings ...
+10000
+elapsed: 2.149s
+
+computing similarity between users ...
+elapsed time: 4.273s
+
+computing similarity knn...
+elapsed: 3.225s
+
+computing ratings ...
+elapsed time: 5.273s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.597s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.517s
+
+Computing Slim ratings...
+elapsed: 5.180s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.129s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.369s
+
+computing ratings ...
+10000
+elapsed: 2.148s
+
+predicting ...
+elapsed: 3.127s
+
+evaluating model ...
+MAP@10: 0.08712
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.7
+w2-planck: 0.2
+Got MAP@10: 0.08712
+
+elapsed: 443.252s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.6
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.065s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.491s
+
+Computing Slim ratings...
+elapsed: 5.194s
+
+computing similarity between users ...
+elapsed time: 4.236s
+
+computing similarity knn...
+elapsed: 3.098s
+
+computing ratings ...
+elapsed time: 1.922s
+
+computing similarity ...
+elapsed: 0.408s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.389s
+
+computing ratings ...
+10000
+elapsed: 2.145s
+
+computing similarity between users ...
+elapsed time: 4.222s
+
+computing similarity knn...
+elapsed: 3.219s
+
+computing ratings ...
+elapsed time: 5.443s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.945s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.562s
+
+Computing Slim ratings...
+elapsed: 5.182s
+
+computing similarity ...
+elapsed: 0.392s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.127s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.106s
+
+computing similarity knn...
+elapsed: 0.388s
+
+computing ratings ...
+10000
+elapsed: 2.140s
+
+predicting ...
+elapsed: 3.121s
+
+evaluating model ...
+MAP@10: 0.08719
+
+Evaluated model with the following parameters
+w1-forzajuve: 0.3
+w2-planck: 0.6
+Got MAP@10: 0.08719
+
+elapsed: 443.480s
+
+Writing to file results ...
+Evaluating model with the following parameters
+w1-forzajuve: 0.8
+w2-planck: 0.1
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 180.360s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.556s
+
+Computing Slim ratings...
+elapsed: 5.184s
+
+computing similarity between users ...
+elapsed time: 4.223s
+
+computing similarity knn...
+elapsed: 3.113s
+
+computing ratings ...
+elapsed time: 1.981s
+
+computing similarity ...
+elapsed: 0.421s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.130s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.128s
+
+computing similarity knn...
+elapsed: 0.388s
+
+computing ratings ...
+10000
+elapsed: 2.154s
+
+computing similarity between users ...
+elapsed time: 4.219s
+
+computing similarity knn...
+elapsed: 3.227s
+
+computing ratings ...
+elapsed time: 5.436s
+
+Training Slim...
+Sampling for epoch 1
+Started epoch 1
+Sampling for epoch 2
+Started epoch 2
+Sampling for epoch 3
+Started epoch 3
+elapsed: 181.007s
+
+Taking Slim k nearest neighbors...
+elapsed: 8.556s
+
+Computing Slim ratings...
+elapsed: 5.167s
+
+computing similarity ...
+elapsed: 0.409s
+
+loading data for feature 0 ...
+
+computing similarity for feature 0 ...
+elapsed: 0.128s
+
+loading data for feature 1 ...
+
+computing similarity for feature 1 ...
+elapsed: 0.118s
+
+computing similarity knn...
+elapsed: 0.387s
+
+computing ratings ...
+10000
+elapsed: 2.150s
+
+predicting ...
