@@ -3,34 +3,32 @@ import scipy.sparse as sp
 import time
 from sklearn.preprocessing import normalize
 
-from kek_recsys.kek_recsys import RecSys
+from recsys.recsys import RecSys
 
 
 class Hybrid(RecSys):
-    def __init__(self, *models, normalize=True):
+    def __init__(self, model1, w1, model2, w2):
         super().__init__()
 
-        self.models = list(models)
-        self.normalize = normalize
+        self.model1 = model1
+        self.w1 = w1
+        self.model2 = model2
+        self.w2 = w2
 
     def get_scores(self, dataset, targets):
 
-        if not self.models:
-            raise RuntimeError("You already called rate")
-
         scores = sp.csr_matrix((len(targets), dataset.shape[1]), dtype=np.float32)
 
-        while self.models:
+        model_scores = self.model1.get_scores(dataset, targets).tocsr()
+        model_scores = normalize(model_scores, norm='l2', axis=1)
+        model_scores = model_scores * self.w1
+        scores += model_scores
+        del model_scores
 
-            model, w = self.models.pop()
-            model_ratings = model.get_scores(dataset, targets).tocsr()
-
-            if self.normalize:
-                model_ratings = normalize(model_ratings, norm='l2', axis=1)
- 
-
-            model_ratings = model_ratings * w
-            scores += model_ratings
-            del model_ratings
+        model_scores = self.model2.get_scores(dataset, targets).tocsr()
+        model_scores = normalize(model_scores, norm='l2', axis=1)
+        model_scores = model_scores * self.w2
+        scores += model_scores
+        del model_scores
 
         return scores

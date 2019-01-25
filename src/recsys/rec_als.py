@@ -2,7 +2,7 @@ import numpy as np
 import scipy.sparse as sp
 import multiprocessing as mp
 
-from kek_recsys.kek_recsys import RecSys
+from recsys.recsys import RecSys
 
 from implicit.als import AlternatingLeastSquares as als
 

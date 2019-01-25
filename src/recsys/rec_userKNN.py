@@ -1,6 +1,6 @@
 import numpy as np
-import kek_utils
-from kek_recsys.kek_recsys import RecSys
+import utils
+from recsys.recsys import RecSys
 
 class UserKNN(RecSys):
     
@@ -13,8 +13,8 @@ class UserKNN(RecSys):
 
     def get_similarity(self, dataset=None):
         print("Computing UserKNN similarity...")
-        s = kek_utils.cosine_similarity(dataset.T, alpha=self.alpha, asym=self.asym, h=self.h, dtype=np.float32)
-        s = kek_utils.knn(s, self.knn)
+        s = utils.cosine_similarity(dataset.T, alpha=self.alpha, asym=self.asym, h=self.h, dtype=np.float32)
+        s = utils.knn(s, self.knn)
         return s
 
     def get_scores(self, dataset, targets):

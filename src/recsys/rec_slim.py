@@ -1,19 +1,8 @@
-'''
-import time
-
 import numpy as np
 import scipy.sparse as sp
-from numpy.linalg import linalg as LA
-
-from src.alg.bpr import BPR
-from src.alg.recsys import RecSys
-from src.alg.utils import knn
-'''
-import numpy as np
-import scipy.sparse as sp
-from kek_recsys.kek_recsys import RecSys
-from kek_recsys.kek_bpr import BPR
-import kek_utils
+from recsys.recsys import RecSys
+from recsys.bpr import BPR
+import utils
 
 
 class Slim(RecSys):
@@ -45,7 +34,7 @@ class Slim(RecSys):
 		s = np.zeros((slim_dim, slim_dim), dtype=np.float32)
 
 		self.train(self.lr, self.epochs, urm, s)
-		s = kek_utils.knn(s.T, knn=self.knn)
+		s = utils.knn(s.T, knn=self.knn)
 
 		return s
 

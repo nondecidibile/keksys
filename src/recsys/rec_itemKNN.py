@@ -1,7 +1,7 @@
 import numpy as np
 import scipy.sparse as sparse
-import kek_utils
-from kek_recsys.kek_recsys import RecSys
+import utils
+from recsys.recsys import RecSys
 
 
 class ItemKNN(RecSys):
@@ -19,17 +19,17 @@ class ItemKNN(RecSys):
 
     def get_similarity(self, data=None):
         print("Computing ItemKNN similarity...")
-        similarity = kek_utils.cosine_similarity(data, alpha=self.alpha, asym=self.asym, h=self.h, dtype=np.float32)
+        similarity = utils.cosine_similarity(data, alpha=self.alpha, asym=self.asym, h=self.h, dtype=np.float32)
 
         # ARTIST
         artists = sparse.csr_matrix(self.tracks_info[:, 2])
-        similarity += kek_utils.cosine_similarity(artists,alpha=0.5,asym=True,h=0,dtype=np.float32) * self.artist_w
+        similarity += utils.cosine_similarity(artists,alpha=0.5,asym=True,h=0,dtype=np.float32) * self.artist_w
         
         # ALBUM
         albums = sparse.csr_matrix(self.tracks_info[:, 1])
-        similarity += kek_utils.cosine_similarity(albums,alpha=0.5,asym=True,h=0,dtype=np.float32) * self.album_w
+        similarity += utils.cosine_similarity(albums,alpha=0.5,asym=True,h=0,dtype=np.float32) * self.album_w
 
-        similarity = kek_utils.knn(similarity, self.knn)
+        similarity = utils.knn(similarity, self.knn)
         return similarity
 
     def get_scores(self, dataset, targets):

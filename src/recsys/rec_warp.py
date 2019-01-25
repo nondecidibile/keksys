@@ -1,10 +1,9 @@
-from lightfm import LightFM
-
 import numpy as np
 import scipy.sparse as sp
 import multiprocessing as mp
 
-from kek_recsys.kek_recsys import RecSys
+from recsys.recsys import RecSys
+from lightfm import LightFM
 
 
 class Warp(RecSys):

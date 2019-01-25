@@ -35,16 +35,16 @@ print("Loading data took " + str(round(time2 - time1, 2)) + " seconds")
 
 slim = Slim(lambda_i=0.025, lambda_j=0.025, epochs=3, lr=0.1)
 item = ItemKNN(tracks_info,0.075,0.075)
-hybrid_1 = HybridSimilarity((item, 0.65), (slim, 0.35))
+hybrid_1 = HybridSimilarity(item, 0.65, slim, 0.35)
 
 user = UserKNN(knn=100)
-hybrid_2 = Hybrid((hybrid_1, 0.8), (user, 0.2))
+hybrid_2 = Hybrid(hybrid_1, 0.8, user, 0.2)
 
 warp = Warp(NUM_TRACKS=NUM_TRACKS, no_components=300, epochs=30)
 als = ALS(factors=1024, iterations=2)
-hybrid_3 = Hybrid((warp, 0.5), (als, 0.5))
+hybrid_3 = Hybrid(warp, 0.5, als, 0.5)
 
-rec = Hybrid((hybrid_2, 0.85), (hybrid_3, 0.15))
+rec = Hybrid(hybrid_2, 0.85, hybrid_3, 0.15)
 
 predictions = rec.run(train_csr,target_playlists)
 
