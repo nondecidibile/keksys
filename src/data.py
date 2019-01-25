@@ -151,12 +151,7 @@ class Cache:
         """ Create cache and load required data in cache """
         # Load data
         self.assets = {}
-        self.load_all()
-
-    def load_all(self):
-        """ Load all data files """
-
-        # Get train data
+        
         interactions = load_file("interactions.obj")
         train_set = load_file("train_set.obj")
         test_set = load_file("test_set.obj")
@@ -184,7 +179,6 @@ class Cache:
             save_file("train_set.obj", train_set)
             save_file("test_set.obj", test_set)
 
-        # Load in cache
         self.store_multi({
             "interactions": interactions,
             "train_set": train_set,
@@ -194,6 +188,7 @@ class Cache:
             "targets": targets,
             "top_pop": np.array([ 2272, 18266, 13980,  2674, 17239, 10496, 15578,  5606, 10848, 8956])
         })
+
 
     def fetch(self, key):
         """
