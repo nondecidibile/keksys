@@ -16,16 +16,16 @@ class HybridSimilarity(RecSys):
         self.model2 = model2
         self.w2 = w2
 
-    def get_similarity(self, dataset):
+    def get_similarity(self, data):
 
-        s = sparse.csr_matrix((dataset.shape[1], dataset.shape[1]), dtype=np.float32)
+        s = sparse.csr_matrix((data.shape[1], data.shape[1]), dtype=np.float32)
 
-        model_sim = self.model1.get_similarity(dataset)
+        model_sim = self.model1.get_similarity(data)
         model_sim = model_sim * self.w1
         s += model_sim
         del model_sim
 
-        model_sim = self.model2.get_similarity(dataset)
+        model_sim = self.model2.get_similarity(data)
         model_sim = model_sim * self.w2
         s += model_sim
         del model_sim
@@ -34,9 +34,9 @@ class HybridSimilarity(RecSys):
         s = utils.knn(s, np.inf)
         return s
 
-    def get_scores(self, dataset, targets):
-        s = self.get_similarity(dataset)
-        scores = (dataset[targets, :] * s).tocsr()
+    def get_scores(self, data, targets):
+        s = self.get_similarity(data)
+        scores = (data[targets, :] * s).tocsr()
         del s
         return scores
         

@@ -11,15 +11,15 @@ class UserKNN(RecSys):
         self.h = np.float32(h)
         self.knn = knn
 
-    def get_similarity(self, dataset=None):
+    def get_similarity(self, data):
         print("Computing UserKNN similarity...")
-        s = utils.cosine_similarity(dataset.T, alpha=self.alpha, asym=self.asym, h=self.h, dtype=np.float32)
+        s = utils.cosine_similarity(data.T, alpha=self.alpha, asym=self.asym, h=self.h, dtype=np.float32)
         s = utils.knn(s, self.knn)
         return s
 
-    def get_scores(self, dataset, targets):
-        s = self.get_similarity(dataset)
+    def get_scores(self, data, targets):
+        s = self.get_similarity(data)
         print("Computing UserKNN scores...")
-        scores = (dataset.T * s).tocsr()
+        scores = (data.T * s).tocsr()
         del s
         return scores.T[targets, :]

@@ -20,8 +20,8 @@ class Slim(RecSys):
 		self.num_interactions = None
 		self.bpr_sampler = None
 
-	def get_similarity(self, dataset):
-		urm = dataset
+	def get_similarity(self, data):
+		urm = data
 		urm = urm.tocsr()
 
 		self.num_interactions = urm.nnz
@@ -38,11 +38,11 @@ class Slim(RecSys):
 
 		return s
 
-	def get_scores(self, dataset, targets):
+	def get_scores(self, data, targets):
 
-		s = self.get_similarity(dataset)
+		s = self.get_similarity(data)
 
-		scores = (dataset[targets, :] * s).tocsr()
+		scores = (data[targets, :] * s).tocsr()
 		del s
 
 		return scores

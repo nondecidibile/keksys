@@ -17,7 +17,7 @@ class ItemKNN(RecSys):
         self.h = np.float32(h)
         self.knn = knn
 
-    def get_similarity(self, data=None):
+    def get_similarity(self, data):
         print("Computing ItemKNN similarity...")
         similarity = utils.cosine_similarity(data, alpha=self.alpha, asym=self.asym, h=self.h, dtype=np.float32)
 
@@ -32,9 +32,9 @@ class ItemKNN(RecSys):
         similarity = utils.knn(similarity, self.knn)
         return similarity
 
-    def get_scores(self, dataset, targets):
-        similarity = self.get_similarity(dataset)
+    def get_scores(self, data, targets):
+        similarity = self.get_similarity(data)
         print("Computing ItemKNN scores...")
-        scores = (dataset[targets, :] * similarity).tocsr()
+        scores = (data[targets, :] * similarity).tocsr()
         del similarity
         return scores

@@ -120,13 +120,12 @@ def cosine_similarity(input, alpha=0.5, asym=True, h=0., dtype=np.float32):
             dtype=dtype
         ), format="csr", dtype=dtype)
 
-        s = (norm_input.T * norm_input)
+        similarity = (norm_input.T * norm_input)
 
     else:
-        s = (input.T * input).tocsr()
+        similarity = (input.T * input).tocsr()
 
         if asym:
-            assert 0. <= alpha <= 1., "alpha should be a number between 0 and 1"
             norm_factors = np.outer(
                 np.power(norms, alpha, dtype=dtype),
                 np.power(norms, 1 - alpha, dtype=dtype)
@@ -136,14 +135,12 @@ def cosine_similarity(input, alpha=0.5, asym=True, h=0., dtype=np.float32):
             norms = np.power(norms, alpha, dtype=dtype)
             norm_factors = np.outer(norms, norms) + h
 
-        # Calculate inverse and normalize
         norm_factors = np.divide(1, norm_factors, out=norm_factors, where=norm_factors != 0, dtype=dtype)
-        s = s.multiply(norm_factors).tocsr()
+        similarity = similarity.multiply(norm_factors).tocsr()
         del norms
         del norm_factors
 
-    # Return computed similarity matrix
-    return s
+    return similarity
 
 
 def compute_map(recommendations_list, test_csr_matrix, target_indices):
