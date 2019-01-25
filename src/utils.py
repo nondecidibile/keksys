@@ -71,7 +71,7 @@ def save_recommendations(target_indices, recommendations_list):
         out_recommendation_list.append(str_rec)
     data_out = {'playlist_id': target_indices, 'track_ids': out_recommendation_list}
     df_out = pd.DataFrame(data=data_out)
-    df_out.to_csv("out.csv", index=False)
+    df_out.to_csv("../submissions/out.csv", index=False)
 
 
 def knn(s, knn=np.inf):

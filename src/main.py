@@ -1,12 +1,12 @@
 import time
-import kek_utils
-from kek_recsys.kek_slim import Slim
-from kek_recsys.kek_warp import Warp
-from kek_recsys.kek_itemKNN import ItemKNN
-from kek_recsys.kek_userKNN import UserKNN
-from kek_recsys.kek_als import ALS
-from kek_recsys.kek_hybrid_similarity import HybridSimilarity
-from kek_recsys.kek_hybrid import Hybrid
+import utils
+from recsys.rec_slim import Slim
+from recsys.rec_warp import Warp
+from recsys.rec_itemKNN import ItemKNN
+from recsys.rec_userKNN import UserKNN
+from recsys.rec_als import ALS
+from recsys.rec_hybrid_similarity import HybridSimilarity
+from recsys.rec_hybrid import Hybrid
 
 #
 # Global variables
@@ -22,10 +22,10 @@ TEST_RATIO = 0.1 if TEST else 0
 #
 
 time1 = time.time()
-target_playlists = kek_utils.load_targets(num_playlists=NUM_PLAYLISTS)
-train_csr, test_csr, NUM_INTERACTIONS = kek_utils.load_interactions(num_playlists=NUM_PLAYLISTS, num_tracks=NUM_TRACKS,
+target_playlists = utils.load_targets(num_playlists=NUM_PLAYLISTS)
+train_csr, test_csr, NUM_INTERACTIONS = utils.load_interactions(num_playlists=NUM_PLAYLISTS, num_tracks=NUM_TRACKS,
 														  target_playlists=target_playlists, test_ratio=TEST_RATIO)
-tracks_info = kek_utils.load_tracks_info(num_tracks=NUM_TRACKS)
+tracks_info = utils.load_tracks_info(num_tracks=NUM_TRACKS)
 time2 = time.time()
 print("Loading data took " + str(round(time2 - time1, 2)) + " seconds")
 
@@ -50,4 +50,7 @@ predictions = rec.run(train_csr,target_playlists)
 
 # Compute MAP
 if TEST:
-	kek_utils.compute_map(predictions,test_csr,target_playlists)
+	utils.compute_map(predictions,test_csr,target_playlists)
+# export recommendations
+else:
+	utils.save_recommendations(target_playlists,predictions)
