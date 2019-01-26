@@ -26,6 +26,7 @@ class ALS(RecSys):
         scores = np.empty((len(targets), data.shape[1]), dtype=np.float32)
         
         for i,target in enumerate(targets):
+
             r = self.model.recommend(userid=target, user_items=data, filter_already_liked_items=False, N=1000)
 
             items = []

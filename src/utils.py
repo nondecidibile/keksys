@@ -63,16 +63,13 @@ def load_tracks_info(num_tracks):
     #info = np.array(df_tracks_info)[:, 0:num_tracks]
     return info
 
-def save_recommendations(target_indices, recommendations_list):
-    out_recommendation_list = []
-    for rec in recommendations_list:
-        str_rec = [str(int(i)) for i in rec]
-        str_rec = ' '.join(str_rec)
-        out_recommendation_list.append(str_rec)
-    data_out = {'playlist_id': target_indices, 'track_ids': out_recommendation_list}
-    df_out = pd.DataFrame(data=data_out)
-    df_out.to_csv("../submissions/out.csv", index=False)
-
+def save_recommendations(predictions_list):
+    with open('../submissions/ok.csv', 'w') as f:
+        f.write("playlist_id,track_ids\n")
+        for playlist_index, track_list in predictions_list.items():
+            f.write(str(playlist_index) + ",")
+            f.write(" ".join([str(el) for el in track_list]))
+            f.write("\n")
 
 def knn(s, knn=np.inf):
     if type(s) is not sparse.csr_matrix:
@@ -107,7 +104,7 @@ def knn(s, knn=np.inf):
         return sparse.csr_matrix((data,indices,indptr), shape=s.shape)
     return s
 
-def cosine_similarity(input, alpha=0.5, asym=True, h=0., dtype=np.float32):
+def cosine_similarity(input, alpha=0.5, asym=True, h=0, dtype=np.float32):
 
     norms = input.sum(axis=0).A.ravel().astype(dtype)
 
@@ -146,14 +143,13 @@ def cosine_similarity(input, alpha=0.5, asym=True, h=0., dtype=np.float32):
 def compute_map(recommendations_list, test_csr_matrix, target_indices):
 	map_metric = 0
 	n = 0
-	i = 0
 	for index in target_indices:
 		test_playlist = test_csr_matrix.getrow(index)
 		m = len(test_playlist.data)
 		ap = 0
 		if m > 0:
 			n += 1
-			recommendations = np.array(recommendations_list[i])
+			recommendations = np.array(recommendations_list[index])
 
 			k = 0
 			tot = 0
@@ -163,6 +159,5 @@ def compute_map(recommendations_list, test_csr_matrix, target_indices):
 					tot += 1
 					ap += tot / k
 			map_metric += ap / m
-		i += 1
 	map_metric = map_metric / n
 	print("map = " + str(round(map_metric, 4)))

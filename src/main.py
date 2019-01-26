@@ -13,9 +13,9 @@ from recsys.rec_hybrid import Hybrid
 #
 
 NUM_PLAYLISTS = 1000  # 50446
-NUM_TRACKS = 1000  # 20635
+NUM_TRACKS = 20635  # 20635
 TEST = True
-TEST_RATIO = 0.1 if TEST else 0
+TEST_RATIO = 0.2 if TEST else 0
 
 #
 # Load data
@@ -33,6 +33,7 @@ print("Loading data took " + str(round(time2 - time1, 2)) + " seconds")
 # Build recommender system
 #
 
+'''
 slim = Slim(lambda_i=0.025, lambda_j=0.025, epochs=3, lr=0.1)
 item = ItemKNN(tracks_info,0.075,0.075)
 hybrid_1 = HybridSimilarity(item, 0.65, slim, 0.35)
@@ -45,6 +46,11 @@ als = ALS(factors=1024, iterations=2)
 hybrid_3 = Hybrid(warp, 0.5, als, 0.5)
 
 rec = Hybrid(hybrid_2, 0.85, hybrid_3, 0.15)
+
+predictions = rec.run(train_csr,target_playlists)
+'''
+
+rec = UserKNN(knn=100)
 
 predictions = rec.run(train_csr,target_playlists)
 
