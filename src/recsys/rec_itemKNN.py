@@ -9,7 +9,6 @@ class ItemKNN(RecSys):
     def __init__(self, tracks_info, artist_w=0.075, album_w=0.075, alpha=0.5, asym=True, knn=np.inf, h=0):
         super().__init__()
 
-        self.tracks_info = tracks_info
         self.artist_w = artist_w
         self.album_w = album_w
         self.alpha = np.float32(alpha)
@@ -17,17 +16,33 @@ class ItemKNN(RecSys):
         self.h = np.float32(h)
         self.knn = knn
 
+        artists = tracks_info[:, 2]
+        albums = tracks_info[:, 1]
+
+        NUM_ARTISTS = max(artists)
+        NUM_ALBUMS = max(albums)
+        NUM_TRACKS = len(tracks_info)
+
+        self.artists_mat = sparse.dok_matrix((NUM_ARTISTS, NUM_TRACKS), dtype=np.uint8)
+        self.albums_mat = sparse.dok_matrix((NUM_ALBUMS, NUM_TRACKS), dtype=np.uint8)
+
+        for i,row in enumerate(tracks_info):
+
+            track = i
+            artist = row[2]-1
+            album = row[1]-1
+
+            self.artists_mat[artist, track] = 1
+            self.albums_mat[album, track] = 1
+
     def get_similarity(self, data):
         print("Computing ItemKNN similarity...")
         similarity = utils.cosine_similarity(data, alpha=self.alpha, asym=self.asym, h=self.h, dtype=np.float32)
 
         # ARTIST
-        artists = sparse.csr_matrix(self.tracks_info[:, 2])
-        similarity += utils.cosine_similarity(artists,alpha=0.5,asym=True,h=0,dtype=np.float32) * self.artist_w
-        
+        similarity += utils.cosine_similarity(self.artists_mat,alpha=0.5,asym=True,h=0,dtype=np.float32) * self.artist_w
         # ALBUM
-        albums = sparse.csr_matrix(self.tracks_info[:, 1])
-        similarity += utils.cosine_similarity(albums,alpha=0.5,asym=True,h=0,dtype=np.float32) * self.album_w
+        similarity += utils.cosine_similarity(self.albums_mat,alpha=0.5,asym=True,h=0,dtype=np.float32) * self.album_w
 
         similarity = utils.knn(similarity, self.knn)
         return similarity
