@@ -13,7 +13,7 @@ from recsys.rec_hybrid import Hybrid
 
 NUM_PLAYLISTS = 50446  # 50446
 NUM_TRACKS = 20635  # 20635
-TEST = True
+TEST = False
 TEST_RATIO = 0.2 if TEST else 0
 
 #
@@ -29,18 +29,18 @@ tracks_info = utils.load_tracks_info(NUM_TRACKS)
 # Build recommender system
 #
 
-slim = Slim(lambda_i=0.025, lambda_j=0.025, epochs=3, lr=0.1)
 item = ItemKNN(tracks_info,0.075,0.075)
-hybrid_1 = HybridSimilarity(item, 0.65, slim, 0.35)
+slim = Slim(lambda_i=0.001, lambda_j=0.0001, epochs=3, lr=0.1)
+h1 = HybridSimilarity(item, 0.7, slim, 0.3)
 
-user = UserKNN(knn=100)
-hybrid_2 = Hybrid(hybrid_1, 0.8, user, 0.2)
+user = UserKNN(knn=64)
+h2 = Hybrid(h1, 0.85, user, 0.15)
 
-warp = Warp(NUM_TRACKS=NUM_TRACKS, no_components=300, epochs=30)
-als = ALS(factors=1024, iterations=2)
-hybrid_3 = Hybrid(warp, 0.5, als, 0.5)
+w = Warp(NUM_TRACKS=NUM_TRACKS, no_components=300, epochs=50)
+a = ALS(factors=1024, iterations=5)
+h3 = Hybrid(w, 0.7, a, 0.3)
 
-recsys = Hybrid(hybrid_2, 0.85, hybrid_3, 0.15)
+recsys = Hybrid(h2, 0.85, h3, 0.15)
 
 #
 # Run recommender system
