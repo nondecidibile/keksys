@@ -1,8 +1,8 @@
 import utils
 from recsys.rec_slim import Slim
 from recsys.rec_warp import Warp
-from recsys.rec_itemKNN import ItemKNN
-from recsys.rec_userKNN import UserKNN
+from recsys.rec_item import Item
+from recsys.rec_user import User
 from recsys.rec_als import ALS
 from recsys.rec_hybrid_similarity import HybridSimilarity
 from recsys.rec_hybrid import Hybrid
@@ -29,11 +29,11 @@ tracks_info = utils.load_tracks_info(NUM_TRACKS)
 # Build recommender system
 #
 
-item = ItemKNN(tracks_info,0.075,0.075)
+item = Item(tracks_info,0.075,0.075)
 slim = Slim(lambda_i=0.001, lambda_j=0.0001, epochs=3, lr=0.1)
 h1 = HybridSimilarity(item, 0.7, slim, 0.3)
 
-user = UserKNN(knn=64)
+user = User(knn=64)
 h2 = Hybrid(h1, 0.85, user, 0.15)
 
 w = Warp(NUM_TRACKS=NUM_TRACKS, no_components=300, epochs=50)

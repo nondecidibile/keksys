@@ -4,7 +4,7 @@ import utils
 from recsys.recsys import RecSys
 
 
-class ItemKNN(RecSys):
+class Item(RecSys):
    
     def __init__(self, tracks_info, artist_w=0.075, album_w=0.075, alpha=0.5, asym=True, knn=np.inf, h=0):
         super().__init__()
@@ -36,7 +36,7 @@ class ItemKNN(RecSys):
             self.albums_mat[album, track] = 1
 
     def get_similarity(self, data):
-        print("Computing ItemKNN similarity...")
+        print("Computing Item similarity...")
         similarity = utils.cosine_similarity(data, alpha=self.alpha, asym=self.asym, h=self.h, dtype=np.float32)
 
         # ARTIST
@@ -49,7 +49,7 @@ class ItemKNN(RecSys):
 
     def get_scores(self, data, targets):
         similarity = self.get_similarity(data)
-        print("Computing ItemKNN scores...")
+        print("Computing Item scores...")
         scores = (data[targets, :] * similarity).tocsr()
         del similarity
         return scores

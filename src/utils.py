@@ -72,8 +72,9 @@ def save_recommendations(predictions_list):
             f.write("\n")
 
 def knn(s, knn=np.inf):
-    if type(s) is not sparse.csr_matrix:
-        s = sparse.csr_matrix(s)
+    
+    s = sparse.csr_matrix(s)
+
     if knn != np.inf:
         for row in range(len(s.indptr) - 1):
             row_start = s.indptr[row]
