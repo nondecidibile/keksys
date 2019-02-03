@@ -76,69 +76,64 @@ def knn(s, knn=np.inf):
     s = sparse.csr_matrix(s)
 
     if knn != np.inf:
-        for row in range(len(s.indptr) - 1):
-            row_start = s.indptr[row]
-            row_end = s.indptr[row + 1]
+        for r in range(len(s.indptr) - 1):
+            start = s.indptr[r]
+            end = s.indptr[r + 1]
 
-            row_data = s.data[row_start:row_end]
+            row_data = s.data[start:end]
 
             if len(row_data) > knn:
-                discard = np.argpartition(row_data, -knn)[:-knn] + row_start
+                discard = np.argpartition(row_data, -knn)[:-knn] + start
                 s.data[discard] = 0
 
-        if not isinstance(s, sparse.csr_matrix):
-            s = s.tocsr()
+        s = s.tocsr()
 
-        data_i = s.data.nonzero()[0]
-        data = s.data[data_i]
+        d = s.data.nonzero()[0]
+        data = s.data[d]
 
-        indices = s.indices[data_i]
+        indices = s.indices[d]
 
         indptr = [0]
-        for row_i in range(s.shape[0]):
-            row_start = s.indptr[row_i]
-            row_end = s.indptr[row_i + 1]
+        for i in range(s.shape[0]):
+            start = s.indptr[i]
+            end = s.indptr[i + 1]
 
-            num_nonzero = np.count_nonzero(s.data[row_start:row_end])
-            indptr.append(indptr[row_i] + num_nonzero)
+            num_nonzero = np.count_nonzero(s.data[start:end])
+            indptr.append(indptr[i] + num_nonzero)
 
         return sparse.csr_matrix((data,indices,indptr), shape=s.shape)
     return s
 
-def cosine_similarity(input, alpha=0.5, asym=True, h=0, dtype=np.float32):
+def cosine_similarity(data, alpha=0.5, asym=True, h=0, dtype=np.float32):
 
-    norms = input.sum(axis=0).A.ravel().astype(dtype)
+    ns = data.sum(axis=0).A.ravel().astype(dtype)
 
     if (not asym or alpha == 0.5) and h == 0:
-        norm_input = input * sparse.diags(np.divide(
-            1,
-            np.power(norms, alpha, out=norms, dtype=dtype),
-            out=norms,
-            where=norms != 0,
-            dtype=dtype
-        ), format="csr", dtype=dtype)
+        n_data = data * sparse.diags(np.divide(
+            1, np.power(ns, alpha, out=ns, dtype=dtype),
+            out=ns, where=ns != 0, dtype=dtype), format="csr", dtype=dtype)
 
-        similarity = (norm_input.T * norm_input)
+        sim = (n_data.T * n_data)
 
     else:
-        similarity = (input.T * input).tocsr()
+        sim = (data.T * data).tocsr()
 
         if asym:
-            norm_factors = np.outer(
-                np.power(norms, alpha, dtype=dtype),
-                np.power(norms, 1 - alpha, dtype=dtype)
+            n_factors = np.outer(
+                np.power(ns, alpha, dtype=dtype),
+                np.power(ns, 1 - alpha, dtype=dtype)
             ) + h
 
         else:
-            norms = np.power(norms, alpha, dtype=dtype)
-            norm_factors = np.outer(norms, norms) + h
+            ns = np.power(ns, alpha, dtype=dtype)
+            n_factors = np.outer(ns, ns) + h
 
-        norm_factors = np.divide(1, norm_factors, out=norm_factors, where=norm_factors != 0, dtype=dtype)
-        similarity = similarity.multiply(norm_factors).tocsr()
-        del norms
-        del norm_factors
+        n_factors = np.divide(1, n_factors, out=n_factors, where=n_factors != 0, dtype=dtype)
+        sim = sim.multiply(n_factors).tocsr()
+        del ns
+        del n_factors
 
-    return similarity
+    return sim
 
 
 def compute_map(recommendations_list, test_csr_matrix, target_indices):
